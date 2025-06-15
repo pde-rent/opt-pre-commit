@@ -1,0 +1,20 @@
+repos:
+  - repo: https://github.com/pde-rent/opt-pre-commit
+    rev: v1.0.0
+    hooks:
+      # Basic usage - optimizes ./public directory in lossless mode
+      - id: optimize-assets
+      
+      # Alternative configurations:
+      
+      # Optimize ./static directory
+      # - id: optimize-assets
+      #   args: [--asset-dir, ./static]
+      
+      # Lossy compression for smaller files
+      # - id: optimize-assets
+      #   args: [--asset-dir, ./public, --mode, lossy, --quality, 85]
+      
+      # Custom directory with high quality lossy
+      # - id: optimize-assets
+      #   args: [--asset-dir, ./assets, --mode, lossy, --quality, 95] 

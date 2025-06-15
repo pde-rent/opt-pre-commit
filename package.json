@@ -1,0 +1,31 @@
+{
+  "name": "opt-pre-commit",
+  "version": "1.0.0",
+  "description": "Multi-asset optimization pre-commit hook using svgo and caesium-clt",
+  "main": "scripts/optimize-assets.sh",
+  "scripts": {
+    "test": "cd tests && ./test.sh",
+    "install-svgo": "npm install -g svgo"
+  },
+  "keywords": [
+    "pre-commit",
+    "image-optimization",
+    "svgo",
+    "caesium-clt",
+    "assets",
+    "compression"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "svgo": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pde-rent/opt-pre-commit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pde-rent/opt-pre-commit/issues"
+  },
+  "homepage": "https://github.com/pde-rent/opt-pre-commit#readme"
+} 
