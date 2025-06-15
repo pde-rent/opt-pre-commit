@@ -1,0 +1,11 @@
+[project]
+name = "opt-pre-commit"
+description = "Optimize images (SVG, PNG, WebP, JPG) with configurable quality settings for pre-commit."
+authors = [
+  { name="pde-rent", email="pde-rent@users.noreply.github.com" },
+]
+urls = {"Repository" = "https://github.com/pde-rent/opt-pre-commit"}
+license = {file = "LICENSE"}
+readme = "README.md"
+version = "1.1.0"
+requires-python = ">=3.8" 
