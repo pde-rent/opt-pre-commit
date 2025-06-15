@@ -6,4 +6,4 @@
   files: \.(svg|png|webp|jpe?g)$
   require_serial: false
   pass_filenames: false
-  always_run: true 
+  always_run: true
