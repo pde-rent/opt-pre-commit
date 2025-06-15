@@ -1,8 +1,8 @@
 - id: optimize-assets
   name: Optimize Images (SVG, PNG, WebP, JPG)
   description: Optimize all image assets using svgo and caesium-clt
-  entry: scripts/optimize-assets.sh
-  language: system
+  entry: optimize-assets
+  language: script
   files: \.(svg|png|webp|jpe?g)$
   require_serial: false
   pass_filenames: false
